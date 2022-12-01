@@ -1,0 +1,33 @@
+Goals:
+1. Be able to create tables
+  1.a. Be able to select what type of table to make
+    1.a.I. Types of tables include; Data table, Calculation Table, 
+  1.a. Be able to select number of rows and columns
+  1.b. Be able to define what each row and column contains
+    1.b.I. This would look like a prompt that asks the user what will be in each row and column. example: row 1 = title
+
+
+
+
+
+RAW DATA TABLE QUESTIONS/OPTIONS
++Number of tables = (short input/int)
+  +Customize individual Table Names? = (checkbox)
+    //If yes
+    +Name of Tables = (short input/string)
+    //If no
+    //n = users input to # of tables
+    +Name of Table 1 = (short input/string)
+    +Name of Table 2 = (short input/string)
+    //etc...
+    +Name of Table n = (short input/string)
++Add constants column? = (checkbox)
+  //If yes
+  +Number of constants = (short input/int)
+    //n = users input to # of constants
+    +Name of Constant 1 = (short input/string)
+    +Name of Constant 2 = (short input/string)
+    //etc...
+    +Name of Constant n = (short input/string)
+  //If no display nothing and move on to next question
++
