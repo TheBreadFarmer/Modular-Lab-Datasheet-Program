@@ -7,27 +7,100 @@ Goals:
     1.b.I. This would look like a prompt that asks the user what will be in each row and column. example: row 1 = title
 
 
+FORMATING
+  General format
+    -10pt font
+    -Times New Roman
+    -background color = #b4c8eb
+    -
+  Table format
+    -Title
+  Chart format
+    -
 
 
 
-RAW DATA TABLE QUESTIONS/OPTIONS
-+Number of tables = (short input/int)
-  +Customize individual Table Names? = (checkbox)
+MENU
++Add New Section
+  +Tables
+    +Raw Data
+    +Calculations
+    +Chart Tables
+    +Result Tables
+  +Charts
+    +Line Graph
+    +Scatter Plot
+
+
+
+
+
+
++ means that it is a new question
+- means that the question should be grouped with the closest + above it
+
+
+TABLES TABLES TABLES
+
+
+RAW DATA TABLES
+
++Number of Raw Data Tables = (short input/int)
+  +Customize individual Raw Data Table Names? = (checkbox)
     //If yes
-    +Name of Tables = (short input/string)
-    //If no
-    //n = users input to # of tables
     +Name of Table 1 = (short input/string)
     +Name of Table 2 = (short input/string)
     //etc...
-    +Name of Table n = (short input/string)
+    +Name of Table n = (short input/string)  <--n = users input to # of constants-->
+    //If no
+    +Name of Tables = (short input/string)
 +Add constants column? = (checkbox)
   //If yes
   +Number of constants = (short input/int)
-    //n = users input to # of constants
     +Name of Constant 1 = (short input/string)
+    -Units = (short input/string)  <--format the users response by putting parenthases() around the response then inputing it one space after the name of the constraint-->
     +Name of Constant 2 = (short input/string)
+    -Units = (short input/string)
     //etc...
-    +Name of Constant n = (short input/string)
-  //If no display nothing and move on to next question
-+
+    +Name of Constant n = (short input/string)  <--n = users input to # of constants-->
+    -Units = (short input/string)
++Number of Recorded Values = (short input/int)
+  +Name of Value 1 = (short input/string)
+  -Units = (short input/string)
+  -Include Uncertainty column? = (checkbox)  <--If checked format the Uncertainty column title as (the users input to Name of Value) + "Uncertainty" || example; Name of Value 1 = Beans. Then Uncertainty column title = Beans Uncertainty-->
+  +Name of Value 2 = (short input/string)
+  -Units = (short input/string)
+  -Include Uncertainty column? = (checkbox)
+  //etc...
+  +Name of Value n = (short input/string)  <--n = users input to # of constants-->
+  -Units = (short input/string)
+  -Include Uncertainty column? = (checkbox)
++Number of Trials = (short input/int)
+
+CALCULATION TABLES
+
++Use only one table for Calculations? = (checkbox)
+  //If yes
+  +Customize Calculation Table Name? = (checkbox)
+  //If no
+  +Customize individual Calculation Table Names? = (checkbox)
+    //If yes
+    +Name of Table 1 = (short input/string)
+    +Name of Table 2 = (short input/string)
+    //etc...
+    +Name of Table n = (short input/string)  <--n = users input to # of tables-->
+    //If no
+  +Include Calculation Constants Table? = (checkbox)
+    //If yes
+    +
+
+
+
+CHART TABLES
+
+sdfugkh
+
+RESULT TABLES
+
+ukhsf
+
