@@ -23,8 +23,8 @@ FORMATING
 MENU
 +Add New Section
   +Tables
-    +Raw Data
-    +Calculations
+    +Raw Data Tables
+    +Calculation Tables
     +Chart Tables
     +Result Tables
   +Charts
